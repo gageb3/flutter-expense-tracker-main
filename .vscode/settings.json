@@ -1,0 +1,17 @@
+{
+  // Disable format on save globally
+  "editor.formatOnSave": false,
+
+  // Disable format when you paste code
+  "editor.formatOnPaste": false,
+
+  // (Optional) Disable format on type
+  "editor.formatOnType": false,
+
+  // Dart-specific override (if you want only Dart/Flutter formatting off)
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  }
+}
